@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 3363152}
   - component: {fileID: 2377982}
   - component: {fileID: 6433370}
+  - component: {fileID: 2190211752115320905}
+  - component: {fileID: 2449621143319136544}
   m_Layer: 0
   m_Name: Gift 2
   m_TagString: Untagged
@@ -95,3 +97,29 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300002, guid: be127921ca6b491479e5fe3004b794e7, type: 3}
+--- !u!114 &2190211752115320905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bc6fe9094ceafa45bdabd79f833e713, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints: []
+  speed: 1
+--- !u!114 &2449621143319136544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad2b7481a9bab2f4d880586c3f0a9c6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
