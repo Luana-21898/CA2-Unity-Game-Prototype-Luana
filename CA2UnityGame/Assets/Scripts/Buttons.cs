@@ -3,8 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class EndMenu : MonoBehaviour
+public class Buttons : MonoBehaviour
 {
+
+    public void StartGame()
+    {
+        SceneManager.LoadScene(1);
+    }
+
     public void EndGame()
     {
         Application.Quit();

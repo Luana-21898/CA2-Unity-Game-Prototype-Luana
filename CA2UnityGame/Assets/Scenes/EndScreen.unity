@@ -213,7 +213,7 @@ GameObject:
   - component: {fileID: 607564489}
   - component: {fileID: 607564492}
   m_Layer: 5
-  m_Name: Button
+  m_Name: REPLAY
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -339,7 +339,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 607564487}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8788296f49a47e43a371a30d1783f62, type: 3}
+  m_Script: {fileID: 11500000, guid: d68c5f17746de3d4cb300b43d4f8b78b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &646990992
@@ -773,7 +773,7 @@ GameObject:
   - component: {fileID: 1934802078}
   - component: {fileID: 1934802077}
   m_Layer: 5
-  m_Name: Button 2
+  m_Name: END
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -808,7 +808,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1934802075}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 434b10ffad9de534595c315d1e018f69, type: 3}
+  m_Script: {fileID: 11500000, guid: d68c5f17746de3d4cb300b43d4f8b78b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1934802078
@@ -854,8 +854,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: StartGame
+      - m_Target: {fileID: 1934802077}
+        m_MethodName: EndGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1051,7 +1051,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: PLAY
+  m_Text: REPLAY?
 --- !u!222 &1968978561
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -5,11 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class Finish : MonoBehaviour
 {
-  /*   private void OnTriggerEnter(Collider collider)
+    private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.name == "FirstPersonController")
+        if (other.gameObject.name == "FirstPersonController")
         {
-            SceneManagement
+             SceneManager.LoadScene(2);
         }
-    } */
+    }
 }
